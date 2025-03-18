@@ -1,3 +1,29 @@
 body{
     font-family: 'Lato', sans-serif;
+    padding:0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color:white;
+    padding: 20px 50px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.searchInput {
+    border: none;
+    background-color: transparent;
 }
