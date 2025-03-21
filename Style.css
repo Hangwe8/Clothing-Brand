@@ -57,3 +57,25 @@ nav{
         height: 400px; /* Adjust height as needed */
     }
 }
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+}
+
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderTitle{
+    position:absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: red;
+}
