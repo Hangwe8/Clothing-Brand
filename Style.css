@@ -70,6 +70,18 @@ nav{
     position: relative;
 }
 
+.slideBg{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.sliderImg{
+    z-index: 1;
+}
+
 .sliderTitle{
     position:absolute;
     top: 10%;
@@ -78,4 +90,69 @@ nav{
     font-weight: 900;
     text-align: center;
     color: red;
+    z-index: 1;
+}
+
+.sliderPrice {
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    color: red;
+    border: 1px solid gray;
+    z-index: 1;
+}
+
+.buyButton {
+    position:absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: red;
+    border: 1px solid gray;
+    background-color: black;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.buyButton:hover{
+    background-color: red;
+    color: black;
+}
+
+.sliderItem:nth-child(1) .sliderBg{
+    background-color: green;
+}
+.sliderItem:nth-child(2) .sliderBg{
+    background-color: blue;
+}
+.sliderItem:nth-child(3) .sliderBg{
+    background-color: teal;
+}
+.sliderItem:nth-child(4) .sliderBg{
+    background-color: cornflowerblue;
+}
+.sliderItem:nth-child(5) .sliderBg{
+    background-color: orange;
+}
+
+
+.sliderItem:nth-child(1) .sliderPrice{
+    color: green;
+}
+.sliderItem:nth-child(2) .sliderPrice{
+    color: blue;
+}
+.sliderItem:nth-child(3) .sliderPrice{
+    color: teal;
+}
+.sliderItem:nth-child(4) .sliderPrice{
+    color: cornflowerblue;
+}
+.sliderItem:nth-child(5) .sliderPrice{
+    color: orange;
 }
