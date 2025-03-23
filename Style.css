@@ -55,11 +55,13 @@ nav{
         background: url('https://images.unsplash.com/photo-1708188853575-6d35cb9be003') no-repeat center center/cover;
         width: 100%;
         height: 400px; /* Adjust height as needed */
+        overflow: hidden;
     }
 }
 .sliderWrapper{
     display: flex;
     width: 500vw;
+    transition: all 1s ease-in-out;
 }
 
 .sliderItem{
