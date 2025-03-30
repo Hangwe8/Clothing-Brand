@@ -6,3 +6,5 @@ menuItems.forEach((item, index) => {
         wrapper.style.transform = `translateX(${-100 * index}vw)`
     });
 });
+
+const productButton = document.querySelector(".productButton");
